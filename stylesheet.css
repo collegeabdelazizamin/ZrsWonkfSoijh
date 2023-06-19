@@ -1,65 +1,31 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply custom styles */
 body {
-	background-color: #b7d1c4;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-h2 {
-	font-family: Verdana;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	color: #acd1b2;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
 
-img {
-	height: 170px;
-	width: 170px;
-	box-shadow: rgba(0,0,0,0.2) 10px 10px;
-
+main {
+  padding: 20px;
 }
 
-#navbar {
-	position: fixed;
-	top:10px;
-	left:50%;
-	margin-left:-254px;
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
-#header {
-	position: relative;
-	top: -10px;
-	background-color: #3c4543;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-}
-
-
-#left{
-	width: 45%;
-	float: left;
-}
-
-
-#right{
-	width: 45%;
-	float: right;
-}
-
-#bottom_left{
-	border-bottom-left-radius: 15px;
-}
-
-#bottom_right{
-	border-bottom-right-radius: 15px;
-}
-
-#footer{
-	clear: both;
-	position: relative;
-	bottom: -20px;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	height: 75px;
-	background-color: #3c4543;
-}
-
+/* Add additional CSS styles as needed to match the website's design */
