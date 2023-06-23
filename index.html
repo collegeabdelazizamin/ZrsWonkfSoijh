@@ -13,8 +13,13 @@ h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
 </style>
-  <script>
+<script>
 function showResultsImage() {
+  // Hide the existing content
+  document.getElementById("header").style.display = "none";
+  document.getElementById("photoGrid").style.display = "none";
+  
+  // Show the new image
   var resultsImage = document.getElementById("resultsImage");
   resultsImage.style.display = "block";
 }
