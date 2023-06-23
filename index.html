@@ -16,7 +16,7 @@ h1 {letter-spacing: 6px}
 <script>
 function showResultsImage() {
   // Hide the existing content
-  document.getElementById("header").style.display = "none";
+
   document.getElementById("photoGrid").style.display = "none";
   
   // Show the new image
@@ -45,7 +45,7 @@ function showResultsImage() {
 </header>
 
 <!-- Photo Grid -->
-<div id="photoGrid" style="margin-bottom:128px">
+<div id="photoGrid" style="margin-bottom:128px; display: block;">
   <div class="w3-half">
     <img src="https://scontent.frba2-1.fna.fbcdn.net/v/t1.6435-9/129852018_3282667315178541_4384843355312230891_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHCUPf85QXmoCsFFdLMSJFdI1pDVB1VoF0jWkNUHVWgXV2vuK8G60ZKvjVCUXSQxsCEBmboDZd6mk3_g3-4wzeX&_nc_ohc=7TbzN6fgvh0AX9kroUR&_nc_ht=scontent.frba2-1.fna&oh=00_AfDpzAshTbdtmhgWYzeVXgJT7KdqxQyb2puD85k_T7BeyQ&oe=64B71CFD" style="width:100%">
 
@@ -58,16 +58,11 @@ function showResultsImage() {
 
   <div id="photoGrid" class="w3-center">
   <img src="https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/347426132_1759974167750569_4066823721390592537_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF2kdhY5mO6o2lhNdfq41FDkY7ryNIAIqiRjuvI0gAiqF1ZI7nKOzWw76KBGiValF_cUhcAJ4wWjyLH_snaJvOW&_nc_ohc=-MMkYjtsmN4AX9UUQjm&_nc_ht=scontent.frba2-1.fna&oh=00_AfCI88oqHGYfSEtGecDJVW6V1aAQDVem5yqQuI_vhe12_Q&oe=6495810F"style="width:40%"> </div>
-</div>
+  </div>
   <!-- Photo Grid -->
-
-  </div>
-  <div class="w3-center">
-  <img id="resultsImage" src="https://apprendre-html.3wa.fr/img/bg/introduction.jpg" style="width:40%; display: none;">
-  </div>
 </div>
-  
-<!-- End Page Content -->
+<div id="resultsImage" style="margin-bottom:128px; display: none;">
+  <img src="https://apprendre-html.3wa.fr/img/bg/introduction.jpg" style="width:100%">
 </div>
 
 </body>
